@@ -1,0 +1,17 @@
+name=input("enter your name")
+python=float(input("enter your python marks"))
+sql=float(input("enter your sql marks"))
+avg=(python+sql)/2
+print(" student name:",name)
+print("python marks:",python)
+print("sql marks:",sql)
+print("average marks:",avg)
+if avg<=90:
+    print("performance:excellent")
+elif avg>=75:
+    print("performance:good")
+elif avg>=60:
+    print("performance:ok ok")
+else:
+    print("performance:need improvement")
+print("=====analysis completed=====")
