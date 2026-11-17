@@ -1,0 +1,9 @@
+name=input("Enter your name")
+cgpa=float(input("Enter your cgpa:"))
+if cgpa>8:
+    print("you are elegible to class attend")
+elif cgpa==8:
+    print("you are eligible but need to improve")
+else:
+    print("you are not elegibel to attend the class")
+    
